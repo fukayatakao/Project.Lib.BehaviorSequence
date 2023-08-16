@@ -1,7 +1,7 @@
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
 
@@ -163,3 +163,4 @@ namespace Project.Lib {
 	}
 
 }
+#endif

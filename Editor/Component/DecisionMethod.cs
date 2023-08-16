@@ -1,8 +1,5 @@
-using UnityEngine;
-using UnityEditor;
+#if UNITY_EDITOR
 using System;
-using System.Collections;
-using System.Collections.Generic;
 
 
 namespace Project.Lib {
@@ -66,3 +63,4 @@ namespace Project.Lib {
 	}
 
 }
+#endif

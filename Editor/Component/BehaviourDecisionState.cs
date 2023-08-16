@@ -1,7 +1,4 @@
-using UnityEngine;
-using UnityEditor;
-using System;
-using System.Collections;
+#if UNITY_EDITOR
 using System.Collections.Generic;
 
 
@@ -39,3 +36,4 @@ namespace Project.Lib {
 		}
 	}
 }
+#endif
